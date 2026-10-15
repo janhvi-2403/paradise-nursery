@@ -1,55 +1,31 @@
-# Paradise Nursery Shopping Application
+# Cars Dealership
+
+## Project Name
+Cars Dealership — Full-Stack Development Capstone Project
 
 ## Project Description
-Paradise Nursery is an online plant shopping application where users can browse and purchase a variety of beautiful houseplants. The application provides a simple and user-friendly shopping experience with categorized plants, product details, and an interactive shopping cart.
+Cars Dealership is a full-stack web application for a car dealership network in the United States. It allows users to explore dealership locations, view dealer information, register and log in, submit customer reviews, and analyze review sentiment.
 
-## Features
-- Browse houseplants organized into different categories.
-- View plant names, images, descriptions, and prices.
-- Add plants to the shopping cart.
-- View the total number of items in the cart.
-- Increase or decrease the quantity of plants.
-- Remove plants from the shopping cart.
-- Calculate the total cost of each item and the entire cart.
-- Navigate between the Home, Plants, and Cart pages.
-- Display a checkout message indicating that checkout is coming soon.
+## Technologies
+- **Frontend:** React, HTML, CSS, JavaScript
+- **Backend:** Django and Django REST Framework
+- **Database:** SQLite
+- **Version Control:** Git and GitHub
+- **CI/CD:** GitHub Actions
+- **Deployment:** Docker and IBM Cloud Code Engine (as required by the course)
 
-## Technologies Used
-- React
-- JavaScript
-- CSS
-- Redux Toolkit
-- React Redux
-- Git and GitHub
+## Main Features
+- View all car dealerships.
+- Filter dealerships by state.
+- View individual dealership details.
+- Register, log in, and log out.
+- Submit and view dealership reviews.
+- Retrieve car makes and models.
+- Analyze the sentiment of customer reviews.
+- Run automated workflows using GitHub Actions.
 
 ## Project Structure
-- `README.md` — Project documentation.
-- `src/App.jsx` — Main application and landing page.
-- `src/App.css` — Application styling and landing-page background.
-- `src/AboutUs.jsx` — Information about Paradise Nursery.
-- `src/CartSlice.jsx` — Redux state management for the shopping cart.
-- `src/ProductList.jsx` — Plant categories and product listing.
-- `src/CartItem.jsx` — Shopping cart interface and item management.
+The application will be organized into frontend and backend components under the `server` directory, following the capstone assignment requirements.
 
-## How to Run the Project
-1. Clone or download this repository.
-2. Open the project folder in a terminal.
-3. Install the dependencies:
-
-   ```bash
-   npm install
-   ```
-
-4. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-5. Open the local URL displayed in the terminal.
-
-## Purpose
-This project demonstrates the development of a dynamic React e-commerce application, including component-based design, state management with Redux Toolkit, navigation, and shopping cart functionality.
-
-## Author
-Janhvi Pagare
+## Project Status
+Developed as part of the Full-Stack Development Capstone Project.
